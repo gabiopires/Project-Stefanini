@@ -1,0 +1,33 @@
+##############################################################
+#						     	     #
+#   API REST - Validação de conhecimento Stefanini - Notes   #
+#						             #
+##############################################################
+
+# Softwares utilizados
+# OpenJDK JDK 22.0.1
+# MySQL Community Server 8.4.0 LTS
+# IntelliJ IDEA Community Edition 2024.1.1
+# Postman 
+
+# Diretórios
+# OpenJDK: c:\Java
+# API: C:\Project Stefanini\API
+# HTML: C:\Project Stefanini\HTML
+# Spring Boot: C:\Project Stefanini\API
+
+# Alterações nas variáveis do ambiente
+# Variável: JAVA_HOME; Valor da variavel: C:\Java\jdk-22.0.1
+# Variável: CLASSPATH; Valor da variavel: .
+
+# MySQL
+# Senha Root: Stefanini2024
+
+# Spring Boot
+# Version: 3.2.5
+# Group: project.stefanini
+# Artifact: API
+# Name: API
+# Description: Project Stefanini API
+# Package Name: project.stefanini.API
+# Dependências: Spring Web; Spring Data JPA; MySQL Driver

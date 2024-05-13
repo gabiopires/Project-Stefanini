@@ -1,0 +1,15 @@
+###############################################################
+#						     	      #
+#   API REST - Validação de conhecimento Stefanini - Deploy   #
+#						    	      #
+###############################################################
+
+*Por ser ambiente de laboratório, utilizaremos senha e configurações genéricas e acessaremos a aplicação via diretórios locais. Para uso em produção, é necessário aplicar boas práticas de segurança e escalabilidade do sistema.*
+
+1. Instalar OpenJDK JDK 22.0.1, MySQL Community Server 8.4.0 LTS e IntelliJ IDEA Community Edition 2024.1.1
+2. Alterar senha root do MySQL para: Stefanini2024
+3. Criar a tabela "to_do" dentro da database MySQL utilizando a seguinte linha de comando: create table to_do (id integer not null, description varchar(150) not null, status varchar(50) not null, title varchar(50) not null, primary key (id)) engine=InnoDB;
+4. Crie a pasta "C:\Project Stefanini", baixe o arquivo "code.zip" e extraia todo seu conteúdo para dentro da pasta "Project Stefanini".
+5. Abrir o IntelliJ, abrir o projeto através do Main Menu > New > Module from Existing Sources; selecione a pasta API; selecione a opção Import module from external model, selecione Maven e clique em Create. É necessário importar desta forma para importar os arquivos criados. Execute o código ApiApplication.
+6. Uma vez executado e complicado, abra o arquivo index.html que está dentro da pasta C:\Project Stefanini\HTML.
+7. Finalizado.
